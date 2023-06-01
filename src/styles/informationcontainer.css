@@ -1,0 +1,53 @@
+.information{
+
+    flex-direction: column;
+    background-color: #fcb634;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.info-card{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+    border-bottom: 1px solid rgb(37, 33, 33);
+    width: 100%;
+}
+
+.info-card h3 {
+    color: #ffffff;
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.info-card p{
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.info-card svg{
+    background-color: #111;
+    padding: .4rem;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+.phone-icon{
+    color: #ffffff;
+}
+
+.email-icon{
+    color: #f8f8f8;
+}
+
+.pin-icon{
+    color: #fffefe;
+}
